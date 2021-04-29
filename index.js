@@ -13,6 +13,6 @@ const tutorials = [
 
 function titleCased() {
   return tutorials.map(function (tutorials){
-    return tutorial.charAt(0).toUpperCase() + string.slice(1);
+    return tutorials.charAt(0).toUpperCase() + tutorials.slice(1);
 });
 }
